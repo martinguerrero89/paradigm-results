@@ -1,1 +1,1 @@
-# paradimg-results
+# paradigm-results
