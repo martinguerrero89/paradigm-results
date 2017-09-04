@@ -1,7 +1,7 @@
 all : unfiltered.all.tab filtered.all.tab
 
 unfiltered.all.tab :
-	galaxyParadigm.py -y -p data/pathways.zip genome rankAllFile:data/CNV mRNA rankAllFile:data/RNA
+	galaxyParadigm.py -y -p data/pathways genome rankAllFile:data/CNV mRNA rankAllFile:data/RNA
 
 filtered.all.tab : unfiltered.all.tab
 	filterParadigm.py unfiltered.all.tab
