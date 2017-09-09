@@ -1,0 +1,5 @@
+pathway [max_in_degree=5,param_file=params.txt,interaction_map=standard.imap,dogma=standard.dogma]
+inference [method=BP,updates=SEQFIX,tol=1e-9,maxiter=10000,logdomain=0]
+
+evidence [suffix=CNV,node=genome,disc=0.33;0.67,epsilon=0.01,epsilon0=0.2]
+evidence [suffix=RNA,node=mRNA,disc=0.33;0.67,epsilon=0.01,epsilon0=0.2]

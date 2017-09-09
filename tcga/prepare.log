@@ -1,0 +1,17 @@
+# /home/martinguerrerog89/anaconda2/bin/python /home/martinguerrerog89/paradigm-scripts/bin/prepareParadigm.py -y  -b "0.33;0.67" -s same -n 5 -i method=BP,updates=SEQFIX,tol=1e-9,maxiter=10000,logdomain=0 -e /home/martinguerrerog89/paradigm-scripts/bin/paradigm -d /home/martinguerrerog89/tcga/dogma -p /home/martinguerrerog89/tcga/data/pathways genome rankAllFile:/home/martinguerrerog89/tcga/data/CNV mRNA rankAllFile:/home/martinguerrerog89/tcga/data/RNA
+restricting down to 13419 genes
+writing batch 1
+77 rows, 13419 columns
+77 rows, 13419 columns
+writing batch 2
+77 rows, 13419 columns
+77 rows, 13419 columns
+writing batch 3
+77 rows, 13419 columns
+77 rows, 13419 columns
+writing batch 4
+77 rows, 13419 columns
+77 rows, 13419 columns
+writing batch 5
+77 rows, 13419 columns
+77 rows, 13419 columns
